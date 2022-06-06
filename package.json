@@ -1,0 +1,12 @@
+{
+  "name": "absolute-rarity-calculator",
+  "version": "1.0.0",
+  "description": "Absolute mathematical rarirty calculator for solana NFT collections",
+  "main": "index.js",
+  "author": "Peninsola",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
