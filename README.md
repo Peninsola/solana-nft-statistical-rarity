@@ -1,3 +1,4 @@
+![Peninsola logo](https://i.imgur.com/Ct76bhy.png)
 # Solana statistical rarity tool
 A statistical rarity tool for Solana NFTs.\
 PRs are welcome!
