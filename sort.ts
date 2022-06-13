@@ -18,10 +18,11 @@ interface metadata_info_type {
             value: string
         }>
     }
+    mint: string
 }
 
 interface trait_type {
-    name: string,
+    name: string,``
     values: Array<string>,
     max_repetitions: number
 }
@@ -33,6 +34,7 @@ interface collection_item_type {
         trait_type: string
         value: string | null
     }>
+    mint: string
     absolute_rank?: number
 }
 
@@ -117,6 +119,7 @@ for (let nft of collection) {
     let shaped_nft_object: collection_item_type = {
         name: nft.metadata.name,
         image: nft.metadata.image,
+        mint: nft.mint,
         attributes: [...nft.metadata.attributes]
     }
     for (let shape_attribute of trait_shape) {
