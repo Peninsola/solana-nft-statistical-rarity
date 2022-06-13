@@ -22,7 +22,7 @@ interface metadata_info_type {
 }
 
 interface trait_type {
-    name: string,``
+    name: string
     values: Array<string>,
     max_repetitions: number
 }
